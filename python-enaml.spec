@@ -21,6 +21,7 @@ Requires:	python-traits >= 4.2.0
 Requires:	python-casuarius
 Requires:	pyside, wxPython
 Requires:	python-ply
+BuildRequires:	python-cython
 BuildRequires:	python-setupdocs >= 1.0.5
 BuildRequires:	python-sphinx
 
