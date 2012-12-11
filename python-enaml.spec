@@ -61,3 +61,10 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %doc *.txt *.rst licenses/ examples/ build/docs/html
 %_bindir/enaml-run
 %py_platsitedir/%{module}*
+
+
+%changelog
+* Tue Aug 14 2012 Lev Givon <lev@mandriva.org> 0.2.0-1
++ Revision: 814738
+- imported package python-enaml
+
