@@ -1,9 +1,11 @@
-%define	module	enaml
+%define module	enaml
 
-Summary:	Enthought Tool Suite, declarative language for building dynamic user interfaces
+%define debug_package %{nil}
+
+Summary:	ETS declarative language for building dynamic user interfaces
 Name:		python-%{module}
-Version:	0.2.0
-Release:	2
+Version:	0.6.8
+Release:	1
 Source0:	http://pypi.python.org/packages/source/e/%{module}/%{module}-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python

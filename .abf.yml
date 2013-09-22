@@ -1,2 +1,4 @@
+removed_sources:
+  enaml-0.2.0.tar.gz: 8c5788302081d09f38c578bdbb2f9c963e553220
 sources:
-  "enaml-0.2.0.tar.gz": 8c5788302081d09f38c578bdbb2f9c963e553220
+  enaml-0.6.8.tar.gz: 5a5ee61e1b27ed67b8bb6c1a8248b7a9a093c15e
