@@ -1,7 +1,5 @@
 %define module	enaml
 
-%define debug_package %{nil}
-
 Summary:	ETS declarative language for building dynamic user interfaces
 Name:		python-%{module}
 Version:	0.6.8
@@ -17,6 +15,7 @@ Requires:	python-ply
 BuildRequires:	python-cython
 BuildRequires:	python-setupdocs >= 1.0.5
 BuildRequires:	python-sphinx
+BuildArch: noarch
 
 %description
 Enaml is a framework for writing declarative user interfaces in
@@ -48,7 +47,7 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %files
 %doc *.txt *.rst licenses/ examples/ build/docs/html
 %_bindir/enaml-run
-%py_platsitedir/%{module}*
+%py_puresitedir/%{module}*
 
 
 %changelog
