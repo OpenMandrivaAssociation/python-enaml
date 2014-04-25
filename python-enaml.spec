@@ -1,10 +1,11 @@
 %define module	enaml
 
 Summary:	ETS declarative language for building dynamic user interfaces
+
 Name:		python-%{module}
-Version:	0.6.8
+Version:	0.9.1
 Release:	1
-Source0:	http://pypi.python.org/packages/source/e/%{module}/%{module}-%{version}.tar.gz
+Source0:	http://pypi.python.org/packages/source/e/enaml/enaml-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
 Url:		https://github.com/enthought/enaml/
@@ -46,12 +47,8 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 
 %files
 %doc *.txt *.rst licenses/ examples/ build/docs/html
-%_bindir/enaml-run
-%py_puresitedir/%{module}*
+%{_bindir}/enaml-run
+%{py_puresitedir}/%{module}*
 
 
-%changelog
-* Tue Aug 14 2012 Lev Givon <lev@mandriva.org> 0.2.0-1
-+ Revision: 814738
-- imported package python-enaml
 
