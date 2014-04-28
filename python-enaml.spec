@@ -47,4 +47,4 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %files
 %doc *.txt *.rst licenses/ examples/ build/docs/html
 %{_bindir}/enaml-run
-%{py_puresitedir}/%{module}*
+%{py_platsitedir}/%{module}*
