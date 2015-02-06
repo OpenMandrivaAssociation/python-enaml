@@ -4,7 +4,7 @@ Summary:	ETS declarative language for building dynamic user interfaces
 
 Name:		python-%{module}
 Version:	0.9.1
-Release:	1
+Release:	2
 Source0:	http://pypi.python.org/packages/source/e/enaml/enaml-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
